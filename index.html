@@ -1,7 +1,136 @@
-<!DOCTYPE html>
+---
+layout: null
+title: Apsoly
+description: Association des PSychologues SOciaux.ales LYonnaise
+sitemap:
+    priority: 1.0
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<body>
-<h1>Ce site se refait une beauté...</h1>
-<p>On reviens très vite !</p>
-</body>
+	<head>
+    {% include head.html %}
+
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+            			<h1>{{site.logo}}</h1>
+						<h2>APSOLY</h2>
+						<p>Association des PSychologues SOciaux.ales LYonnaise</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Qui sommes-nous ?</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="{{ "/" | absolute_url }}" class="logo">{{site.logo}}</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">L'association Apsoly</a></h2>
+									<p>Association de Psychologues Sociaux.ales Lyonnaise -, loi 1901, est née en octobre 2015.
+									</p>
+								</header>
+                				<p>
+
+<div class="row">
+		<div class="3u 12u(small)">
+		 <a class="icon fa-users" rel="nofollow" style="font-size:3rem"><span class="label">Fédère et vaolorise</span></a>
+		<h3>Fédère et valorise</h3>
+		<p style="text-align:center">Les acteurs.trices professionnel.le.s de la psychologie sociale.</p>
+		</div>
+		<div class="3u 12u(small)">
+		<a class="icon fa-bullhorn" rel="nofollow" style="font-size:3rem"><span class="label">Evidemment !</span></a>
+		<h3>Promeut et diffuse</h3>
+		<p style="text-align:center">La psychologie sociale.</p>
+		</div>
+		<div class="3u 12u(small)">
+		<a class="icon fa-user" rel="nofollow" style="font-size:3rem"><span class="label">Et ouais !</span></a>
+		<h3>Favorise</h3>
+		<p style="text-align:center">Le partage de ressources et de savoir-faire.</p>
+		</div>		
+		<div class="3u 12u(small)">
+		<a class="icon fa-building" rel="nofollow" style="font-size:3rem"><span class="label">Et ouais !</span></a>
+		<h3>Réalise</h3>
+		<p style="text-align:center">Une démarche de co-construction de pratique professionnelle.</p>
+		</div>
+</div>
+
+	<p>La pratique de la psychologie sociale s’étend à de nombreux domaines d’application et thématiques :<br/>
+	Animer un réseau de psychologues sociales.aux répond donc à un réel besoin des praticien.ne.s de partager des connaissances, de se nourrir des pratiques de chacun.e et d’actualiser collectivement leurs compétences dans la bonne humeur, la convivialité et l’énergie nécessaire pour aller de l’avant.
+</p>
+
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+                {% for post in site.posts limit:3 %}
+                {% assign mod3 = forloop.index | modulo: 3 %}
+  								<article>
+  									<header>
+  										<span class="date">{{ post.date | date_to_string }}</span>
+  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.excerpt }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Lire la suite</a></li>
+  									</ul>
+  								</article>
+                  {% if mod3 == 0 %}
+                  <article>
+  									<header>
+  										<h2><a href="#">Sponsored</a></h2>
+  									</header>
+
+  								</article>
+                  {% endif %}
+                {% endfor %}
+
+							</section>
+
+						<!-- Footer -->
+							<footer>
+                <ul class="actions">
+                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Le Blog</a></li>
+                </ul>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+    {% include tracking.html %}
+
+	</body>
 </html>
