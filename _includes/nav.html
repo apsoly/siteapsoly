@@ -1,7 +1,7 @@
 <ul class="links">
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Apsoly</a></li>
   <li class="{% if page.url contains '/agenda/' %} active {% endif %}"><a href="{{ "/agenda/" | absolute_url }}">Le calendrier</a></li>
-    <li class="{% if page.url contains '/ressources/' %} active {% endif %}"><a href="{{ "/ressources/" | absolute_url }}">Ressources</a></li>
+    <li class="{% if page.url contains '/actions/' %} active {% endif %}"><a href="{{ "/actions/" | absolute_url }}">Actions</a></li>
       <li class="{% if page.url contains '/communuaute/' %} active {% endif %}"><a href="{{ "/communaute/" | absolute_url }}">Communauté</a></li>
   <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Le Blog</a></li>
 </ul>
