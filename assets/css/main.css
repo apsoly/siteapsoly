@@ -4311,6 +4311,7 @@
 		}
 
 		#navPanelToggle:before {
+			font-family: 'Font Awesome 5 Free';
 			content: '\f0c9';
 			margin-right: 0.5rem;
 		}
@@ -4423,6 +4424,7 @@
 			}
 
 			#navPanel .close:before {
+				font-family: 'Font Awesome 5 Free';
 				content: '\f00d';
 				font-size: 1.25rem;
 			}
