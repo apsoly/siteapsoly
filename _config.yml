@@ -36,10 +36,8 @@ sass:
 disqus_shortname:   default
 
 # Social
-analytics-id:       "default"
-twitter:            default
+analytics-id:       UA-127492623-1
 facebook:           /apsoly/
-instagram:          default
 github:             apsoly
 slideshare:         /APSOLY
 
