@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Apsoly
-description: Association des PSychologues SOciaux.ales LYonnaise
+title: L'agenda d'Apsoly
+description: L'agenda de l'Association des PSychologues SOciaux.ales LYonnaise
 sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
+  priority: 0.7
+  lastmod: 2017-11-02 00:00:00 +0000
+  changefreq: weekly
+
 ---
 ## Notre agenda
 
