@@ -1,9 +1,10 @@
 ---
 layout: blog
-title: Lyon Game Dev, le blog des brasseurs du jeu-vidéo lyonnais.
-description: Pionnière du brassage vidéoludique à partir de gros pixels non-aliasés, l’association Lyon Game Dev mélange l’écosystème professionnel du jeu-vidéo lyonnais depuis 2013.
+title: Le blog d'Apsoly
+description: Le blog et les actus
 sitemap:
-    priority: 1.0
-    lastmod: 2017-11-02
-    changefreq: weekly
+  priority: 1
+  lastmod: 2017-11-02 00:00:00 +0000
+  changefreq: weekly
+
 ---
