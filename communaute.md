@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Apsoly
-description: Association des PSychologues SOciaux.ales LYonnaise
+title: L'équipe d'Apsoly
+description: L'équipe de l'Association des PSychologues SOciaux.ales LYonnaise
 sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
----
+  priority: 0.7
+  lastmod: 2017-11-02 00:00:00 +0000
+  changefreq: weekly
 
+---
 ## L'équipe Apsoly
 
 Découvre l'équipe qui anime votre association :
