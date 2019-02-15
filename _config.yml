@@ -4,9 +4,9 @@ bio:                'Association des PSychologues SOciaux.ales LYonnais'
 description:        "Association des PSychologues SOciaux.ales LYonnais"
 logo:               <img src="/images/LOGO.png" alt="Apsoly Logo">
 locale:             fr_FR
-email:              contact.apsoly@gmail.com
+email:              contact@apsoly.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://apsoly.com" # the base hostname & protocol for your site
 
 defaults:
 - scope:
