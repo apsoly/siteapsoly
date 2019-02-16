@@ -21,14 +21,14 @@ Ce temps fort semble avoir stimulé les participant-es venu-es en nombre et se p
 Lyon Game Dev est une association lyonnaise qui anime l’écosystème professionnel du jeu-vidéo lyonnais depuis 2013. L’association organise notamment chaque premier jeudi du mois une soirée conviviale où les professionnels du jeu vidéo se réunissent dans un bar lyonnais pour échanger et découvrir les projets de chacun. Lyon Game Dev constate que peu de femmes vient à ses événements et que ce milieu est emprunt d’un bon nombre de stéréotypes et de préjugés sur les femmes et les hommes. 
 
 ## Objectifs
-Dans un contexte où les relations femmes-hommes dans le milieu gaming ont besoin d’évoluer, Lyon Game Dev a souhaité ouvrir le dialogue auprès de ses membres pour proposer un événement permettant d’appréhender les stéréotypes de sexe et celle de la place relative des femmes et des hommes dans l’industrie des jeux vidéo.  
-Pour répondre à cet objectif, Lyon Game Dev a fait appel à APSOLY ! Dès novembre 2018, - Jordi Colin, Elise Chane et Sofia Payotte (membres APSOLY) se sont porté-es volontaires pour accompagner LGD. Après plusieurs réunions de travail avec Lyon Game Dev, ils et elles ont construit un atelier se composant ainsi :
+Dans un contexte où les relations femmes-hommes dans le milieu gaming ont besoin d’évoluer, Lyon Game Dev a souhaité ouvrir le dialogue auprès de ses membres pour proposer un événement permettant d’appréhender les stéréotypes de sexe et la place relative des femmes et des hommes dans l’industrie des jeux vidéo.  
+Pour répondre à cet objectif, Lyon Game Dev a fait appel à APSOLY ! Dès novembre 2018, - Jordi Nouvellet, Elise Chane et Sofia Payotte (membres APSOLY) se sont porté-es volontaires pour accompagner LGD. Après plusieurs réunions de travail avec Lyon Game Dev, ils et elles ont construit un atelier se composant ainsi :
 * introduction : présentation de la soirée par Lyon Game Dev et Apsoly ;
 * brise-glace : afin de mélanger les groupes et produire de nouveaux échanges ;
 * ateliers : quizz, collaboration et partages d’expériences ;
 * conclusion : restitution.
 
-Pour expliciter notre démarche et permettre aux membres de Lyon Game Dev d’aller plus loin dans leur réflexions, nous avons réalisé un [livret psychosocial.](/docs/APSOLY_LGD_livret_participant-es.pdf) D’ailleurs cet article emprunte beaucoup d’éléments de ce dossier, donc n’hésitez pas à le découvrir ;)
+Pour expliciter notre démarche et permettre aux membres de Lyon Game Dev d’aller plus loin dans leurs réflexions, nous avons réalisé un [livret psychosocial.](/docs/APSOLY_LGD_livret_participant-es.pdf) D’ailleurs cet article emprunte beaucoup d’éléments de ce dossier, donc n’hésitez pas à le découvrir ;)
 
 ## Atelier quizz
 ![Photo : Atelier Quizz](/images/articles/20190215-lgd/02.jpg)  
@@ -62,9 +62,9 @@ Pour conclure ces ateliers, une phase de restitution a permis à chacun et chacu
 ![Photo : Atelier collaboration et compétences métiers](/images/articles/20190215-lgd/05.jpg)
 
 Nous remercions chaleureusement Lyon Game Dev pour cette première collaboration qui avait pour APSOLY plusieurs objectifs : 
-permettre aux membres de Lyon Game Dev d’appréhender les stéréotypes de sexeet des relations femmes-hommes dans l'industrie des jeux vidéo. 
-par ricochet, de faire de la médiation psychosociale à travers notre accompagnement et le livret produit
-de faire se rencontrer et collaborer ensemble des membres APSOLY professionnel.les et étudiant.es
+* permettre aux membres de Lyon Game Dev d’appréhender les stéréotypes de sexeet des relations femmes-hommes dans l'industrie des jeux vidéo. 
+* par ricochet, de faire de la médiation psychosociale à travers notre accompagnement et le livret produit
+* de faire se rencontrer et collaborer ensemble des membres APSOLY professionnel.les et étudiant.es
 
 ## Bravo à Elise, Sofia et Jordi pour leur implication :) 
 
