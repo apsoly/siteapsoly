@@ -1,9 +1,8 @@
 <ul class="links">
-  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Apsoly</a></li>
-  <li class="{% if page.url contains '/agenda/' %} active {% endif %}"><a href="{{ "/agenda/" | absolute_url }}">Le calendrier</a></li>
-    <!--<li class="{% if page.url contains '/actions/' %} active {% endif %}"><a href="{{ "/actions/" | absolute_url }}">Actions</a></li>-->
-      <li class="{% if page.url contains '/communuaute/' %} active {% endif %}"><a href="{{ "/communaute/" | absolute_url }}">Communauté</a></li>
-  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Le Blog</a></li>
+  <li class="{% if page.url == "/" %} active {% endif %}"><a data-scroll href="{{ "#apsoly" | absolute_url }}">Apsoly</a></li>
+  <li class="{% if page.url == "/#agenda" %} active {% endif %}"><a data-scroll href="{{ "#agenda" | absolute_url }}">Le calendrier</a></li>
+  <li class="{% if page.url contains '/nosactions/' %} active {% endif %}"><a href="{{ "#nosactions" | absolute_url }}">Nos Actions</a></li>
+    <li class="{% if page.url contains '/contact/' %} active {% endif %}"><a href="{{ "#contact" | absolute_url }}">Contactez-nous</a></li>
        <li><a href="https://www.helloasso.com/associations/apsoly/adhesions/adhesion-2019-2020">Adhérer</a></li>
 </ul>
 

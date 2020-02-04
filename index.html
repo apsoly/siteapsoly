@@ -32,7 +32,7 @@ sitemap:
 						<h2>APSOLY</h2>
 						<p>Association des PSychologues SOciaux.ales LYonnaise</p>
 						<ul class="actions">
-							<li><a href="#header" class="button forcefontawesome icon solo scrolly fas fa-hand-point-down"></i>Qui sommes-nous ?</a></li>
+							<li><a href="#apsoly" class="button forcefontawesome icon solo scrolly fas fa-hand-point-down"></i>Qui sommes-nous ?</a></li>
 						</ul>
 					</div>
 
@@ -53,9 +53,8 @@ sitemap:
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="#">L'association Apsoly</a></h2>
-									<p>Association de Psychologues Sociaux.ales Lyonnaise -, loi 1901, est née en octobre 2015.
-									</p>
+									<h2 id="apsoly"><a href="#apsoly">L'association Apsoly</a></h2>
+									<p>Association de Psychologues Sociaux.ales Lyonnaise -, loi 1901, est née en octobre 2015.</p>
 								</header>
                 				<p>
 
@@ -82,10 +81,34 @@ sitemap:
 		</div>
 </div>
 
+		<div>
+		<h3>Découvrez les membres de l'association :</h3>
+		<iframe class="airtable-embed" src="https://airtable.com/embed/shrFbuyFZSdMyUqVd?backgroundColor=purple&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+		</div>
+		</article>
+		</div>
+		
+		<div id="mainnogb">
+			<article class="post">
+								<header class="major">
+									<h2 id="agenda"><a href="#agenda">Retrouvez les évènements Apsoly</a></h2>
+								</header>
+								<div class="embedresize">
+									<div>
+									<iframe src="https://calendar.google.com/calendar/embed?src=vks96r8c39vs0t9saservo2gno%40group.calendar.google.com&ctz=Europe%2FParis" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>	
+									</div>	
+								</div>									
+			</article>
+		</div>
 
-							</article>
-
+		<div id="main">
 						<!-- Posts -->
+				<article class="post">
+						<header class="major">
+									<h2 id="nosactions"><a href="#nosactions">Retrouvez nos actions documentées</a></h2>
+									<p>Quelques articles à lire et à relire !</p>
+								</header>
+								</article>
 							<section class="posts">
                 {% for post in site.posts limit:3 %}
                 {% assign mod3 = forloop.index | modulo: 3 %}
@@ -128,21 +151,22 @@ sitemap:
   								</article>
                   {% endif %}
                 {% endfor %}
-
 							</section>
-
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Le Blog</a></li>
-                </ul>
-							</footer>
+							
+												<article class="post">
+								<header class="major">
+									<h3>Nos actions sur les réseaux</h3>
+								</header>
+								<div class="embedresize">
+									<div>
+									<iframe allowfullscreen id="wallsio-iframe" src="https://walls.io/f6ux7?nobackground=1&amp;show_header=0" style="border:0;height:800px;width:100%" title="Apsoly sur les réseaux"></iframe>	
+									</div>	
+								</div>									
+			</article>
 
 					</div>
-
 				<!-- Footer -->
         {% include foot.html %}
-
 			</div>
 
 		<!-- Scripts -->

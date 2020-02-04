@@ -20,9 +20,9 @@
         </header>
 
 				<!-- Nav -->
-					<nav id="nav">
+		<nav id="nav">
 
-            {% include nav.html %}
+            {% include nav2.html %}
 
 					</nav>
 
@@ -30,49 +30,49 @@
 				<div id="main">
           <section class="post">
     				<header class="major">
-                    <span class="date">
-                    <!-- Whitespace added for readability -->
-                    {% assign m = post.date | date: "%-m" %}
-                    {{ post.date | date: "%-d" }}
-                    {% case m %}
-                    {% when '1' %}Janvier
-                    {% when '2' %}Février
-                    {% when '3' %}Mars
-                    {% when '4' %}Avril
-                    {% when '5' %}Mai
-                    {% when '6' %}Juin
-                    {% when '7' %}Juillet
-                    {% when '8' %}Août  
-                    {% when '9' %}Septembre
-                    {% when '10' %}Octobre
-                    {% when '11' %}Novembre
-                    {% when '12' %}Décembre
-                    {% endcase %}
-                    {{ post.date | date: "%Y" }}
-                    </span>
-      				<h1>{{page.title}}</h1>
+      				<span class="date">
+						<!-- Whitespace added for readability -->
+						{% assign m = page.date | date: "%-m" %}
+						{{ page.date | date: "%-d" }}
+						{% case m %}
+						{% when '1' %}Janvier
+						{% when '2' %}Février
+						{% when '3' %}Mars
+						{% when '4' %}Avril
+						{% when '5' %}Mai
+						{% when '6' %}Juin
+						{% when '7' %}Juillet
+						{% when '8' %}Août	
+						{% when '9' %}Septembre
+						{% when '10' %}Octobre
+						{% when '11' %}Novembre
+						{% when '12' %}Décembre
+						{% endcase %}
+						{{ page.date | date: "%Y" }}
+					</span>
+					<h1>{{page.title}}</h1>
       				<p>{{page.excerpt}}</p>
       			</header>
       			<div class="image main"><img src="{{page.image}}" alt=""></div>
       			<p>{{content}}</p>
-      		</section>
+
       {% if page.comments %}
         {% include  disqus.html %}
       {% endif %}
-
+	        		</section>
 
 					<!-- Footer -->
 						<footer>
               <ul class="actions">
-                <li><a href="{{ "/blog/" | absolute_url }}" class="button">Le Blog</a></li>
+								<li><a href="{{ "/" | absolute_url }}" class="button">Revenir au site</a></li>
               </ul>
 						</footer>
-					</div>
-
+					
+			</div>
 				<!-- Footer -->
         {% include foot.html %}
 
-			</div>
+</div>
 
       <!-- Scripts -->
   		{% include scripts-main.html %}
